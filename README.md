@@ -2,7 +2,7 @@ Update Notes:
 - Replaced packet deconstruction with use of dronefleet API
 
 
-#Archiving Database
+# Archiving Database
 Requirements: The following list of software is required to run the archiving database software on the host machine: Mongo Community Server The archiving database requires Mongo Community Server in order for the processing software to operate correctly. The software is available for use in commercial applications and does not include any limitations of use. We have chosen to use the Mongo Shell for database interaction however alternative GUIs may be preferable in a commercial application. Java 1.8 (Java 8) The archiving database software requires Java 1.8 to compile and run. Java 1.8 is free to use for personal use however does require a license for use in commercial products. At this time, our software will not be sold therefore this limitation is acceptable. An alternative development kit or license would be acquired if the use of the software were to change. Java IDE (Optional) The archiving database software can be run in two ways based on user preference:
 
 The software can be run within a dedicated IDE. This allowed greater ease-of-use when running the software and provides functionality to debug and alter the software as needed. This is the preferred method of execution for testing purposes as the user is able to modify the parameters of the software.
